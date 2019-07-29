@@ -73,6 +73,7 @@ public class ActivityManager {
      */
     public void startActivity(Class activityClass) {
         startActivity(new Intent(mApplication, activityClass));
+        int a = 0;
     }
 
     /**
