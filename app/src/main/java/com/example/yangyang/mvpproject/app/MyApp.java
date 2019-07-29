@@ -51,7 +51,7 @@ public class MyApp extends Application {
      * 添加activity
      * @param activity
      */
-    public void addActivity(Activity activity) {
+    /*public void addActivity(Activity activity) {
         if (mActivityList != null && mActivityList.size() > 0) {
             if (!mActivityList.contains(activity)) {
                 mActivityList.add(activity);
@@ -59,7 +59,7 @@ public class MyApp extends Application {
         } else {
             mActivityList.add(activity);
         }
-    }
+    }*/
 
     /**
      * 移除activity
